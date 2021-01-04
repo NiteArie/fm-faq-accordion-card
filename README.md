@@ -1,1 +1,0 @@
-# fm-faq-accordion-card
