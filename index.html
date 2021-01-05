@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | FAQ Accordion Card</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -19,9 +27,80 @@
   <link href="style.css" rel="stylesheet">
 
 </head>
+
 <body>
-  How many team members can I invite?
-  You can invite up to 2 additional users on the Free plan. There is no limit on 
+  <div class="container">
+    <main class="container__main">
+      <div class="container__main__hero">
+        <div class="container__main__hero__illustration-wrapper">
+          <img class="container__main__hero__illustration" src="images/illustration-woman-online-desktop.svg"
+            alt="Illustration">
+        </div>
+        <img class="container__main__hero__box" src="images/illustration-box-desktop.svg" alt="Box">
+      </div>
+      <div class="container__main__faq">
+        <h2 class="container__main__faq__title">FAQ</h2>
+        <div class="container__main__faq__questions">
+          <div class="container__main__faq__questions__question">
+            <div class="container__main__faq__questions__question__fore">
+              <p>How many team members can I invite?</p>
+              <img class="container__main__faq__questions__question__fore__more" src="images/icon-arrow-down.svg"
+                alt="More">
+            </div>
+            <p class="container__main__faq__questions__question__answer">
+              You can invite up to 2 additional users on the Free plan. There is no limit on
+              team members for the Premium plan.
+            </p>
+          </div>
+          <div class="container__main__faq__questions__question">
+            <div class="container__main__faq__questions__question__fore">
+              <p>
+                What is the maximum file upload size?
+              </p>
+              <img class="container__main__faq__questions__question__fore__more" src="images/icon-arrow-down.svg"
+                alt="More">
+            </div>
+            <p class="container__main__faq__questions__question__answer">
+              No more than 2GB. All files in your account must fit your allotted storage space.
+            </p>
+          </div>
+          <div class="container__main__faq__questions__question">
+            <div class="container__main__faq__questions__question__fore">
+              <p>How do I reset my password?</p>
+              <img class="container__main__faq__questions__question__fore__more" src="images/icon-arrow-down.svg"
+                alt="More">
+            </div>
+            <p class="container__main__faq__questions__question__answer">
+              Click “Forgot password” from the login page or “Change password” from your profile page.
+              A reset link will be emailed to you.
+            </p>
+          </div>
+          <div class="container__main__faq__questions__question">
+            <div class="container__main__faq__questions__question__fore">
+              <p>Can I cancel my subscription?</p>
+              <img class="container__main__faq__questions__question__fore__more" src="images/icon-arrow-down.svg"
+                alt="More">
+            </div>
+            <p class="container__main__faq__questions__question__answer">
+              Yes! Send us a message and we’ll process your request no questions asked.
+            </p>
+          </div>
+          <div class="container__main__faq__questions__question">
+            <div class="container__main__faq__questions__question__fore">
+              <p>Do you provide additional support?</p>
+              <img class="container__main__faq__questions__question__fore__more" src="images/icon-arrow-down.svg"
+                alt="More">
+            </div>
+            <p class="container__main__faq__questions__question__answer">
+              Chat and email support is available 24/7. Phone lines are open during normal business hours.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <!-- How many team members can I invite?
+  You can invite up to 2 additional users on the Free plan. There is no limit on
   team members for the Premium plan.
 
   What is the maximum file upload size?
@@ -35,11 +114,12 @@
   Yes! Send us a message and we’ll process your request no questions asked.
 
   Do you provide additional support?
-  Chat and email support is available 24/7. Phone lines are open during normal business hours.
+  Chat and email support is available 24/7. Phone lines are open during normal business hours. -->
 
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div>
 </body>
+
 </html>
