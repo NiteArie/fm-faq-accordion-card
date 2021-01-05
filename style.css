@@ -20,9 +20,10 @@ body {
 
 .container__main {
     padding: 20px 0;
-    padding-right: 30px;
+    padding-right: 20px;
     max-width: 1000px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     background-color: white;
     border-radius: 20px;
     box-shadow: 0 10px 10px 5px hsla(0, 0%, 0%, 0.2);
@@ -58,7 +59,8 @@ body {
 
 .container__main__faq {
     padding: 20px;
-    flex: 1;
+    flex-basis: 450px;
+    flex-grow: 1;
     color: hsl(237, 12%, 33%);
 }
 
@@ -79,25 +81,42 @@ body {
 }
 
 .container__main__faq__questions__question__fore {
-    padding: 10px 0;
+    padding: 20px 0;
     border-bottom: 1px solid hsl(240, 5%, 91%);
 }
 
-.container__main__faq__questions__question__fore p {
+.container__main__faq__questions__question__fore__title {
     cursor: pointer;
 }
 
-.container__main__faq__questions__question__fore p:hover {
+.container__main__faq__questions__question__fore__title:hover {
     color: hsl(14, 88%, 65%);
 }
 
+.container__main__faq__questions__question__fore__more {
+    cursor: pointer;
+}
+
+.inverse {
+    transform: rotate(180deg);
+}
+
 .container__main__faq__questions__question__answer {
+    display: none;
     font-size: 14px;
     padding: 10px 0;
     line-height: 1.25;
     color: hsl(240, 6%, 50%);
 }
 
-.hidden { 
-    display: none;
+.container__main__faq__questions__question.active .container__main__faq__questions__question__answer {
+    display: block;
+}
+
+.container__main__faq__questions__question.active .container__main__faq__questions__question__fore__title {
+    font-weight: bold;
+}
+
+.container__main__faq__questions__question.active .container__main__faq__questions__question__fore__more {
+    transform: rotate(180deg);
 }
