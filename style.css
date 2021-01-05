@@ -84,7 +84,11 @@ body {
 }
 
 .container__main__faq__questions__question__fore p {
-    
+    cursor: pointer;
+}
+
+.container__main__faq__questions__question__fore p:hover {
+    color: hsl(14, 88%, 65%);
 }
 
 .container__main__faq__questions__question__answer {
@@ -92,4 +96,8 @@ body {
     padding: 10px 0;
     line-height: 1.25;
     color: hsl(240, 6%, 50%);
+}
+
+.hidden { 
+    display: none;
 }
