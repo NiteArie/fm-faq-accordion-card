@@ -4,6 +4,10 @@
 
 Live Version: [https://nitearie.github.io/fm-faq-accordion-card/](https://nitearie.github.io/fm-faq-accordion-card/)
 
+## Preview
+
+![Design Preview](./design/desktop-preview.jpg)
+
 ## General
 
 My challenge is to build out this FAQ accordion card and get it looking as close to the design as possible.
