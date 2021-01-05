@@ -19,42 +19,35 @@ body {
 }
 
 .container__main {
-    padding: 20px 0;
     padding-right: 20px;
-    max-width: 1000px;
+    max-width: 900px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
     background-color: white;
     border-radius: 20px;
     box-shadow: 0 10px 10px 5px hsla(0, 0%, 0%, 0.2);
 }
 
 .container__main__hero {
+    position: relative;
     flex: 1;
-    position: relative;
-    display: flex;
-    align-items: center;
-    /* overflow: hidden; */
+    background-image:
+        url("images/illustration-woman-online-desktop.svg"),
+        url("images/bg-pattern-desktop.svg");
+    
+    background-repeat: no-repeat;
+    background-position: -70px 40px, -550px -300px;
+
 }
 
-.container__main__hero__illustration-wrapper {
-    padding: 10px 0;
-    overflow: hidden;
-}
-
-.container__main__hero__illustration {
-    position: relative;
-    width: 500px;
-    left: -60px;
-    top: -10px;
-}
 
 .container__main__hero__box {
     position: absolute;
     top: 40%;
-    left: -73px;
-    width: 150px;
-    height: 150px;
+    left: -88px;
+    width: 180px;
+    height: 180px;
 }
 
 .container__main__faq {
