@@ -1,5 +1,9 @@
 # FAQ Accordion Card 
 
+## Live Version
+
+Live Version: [https://nitearie.github.io/fm-faq-accordion-card/](https://nitearie.github.io/fm-faq-accordion-card/)
+
 ## General
 
 My challenge is to build out this FAQ accordion card and get it looking as close to the design as possible.
